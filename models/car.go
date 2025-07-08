@@ -17,7 +17,7 @@ type Car struct {
 	Engine    Engine    `json: "engine"`
 	Price     float64   `json: "price"`
 	CreatedAt time.Time `json: "created_at"`
-	updatedAt time.Time `json: "updated_at"`
+	UpdatedAt time.Time `json: "updated_at"`
 }
 
 // request body so that when the user request only this field will be requested
